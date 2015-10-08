@@ -1,0 +1,35 @@
+div.list-container {
+  width: 400px;
+  border: 1px solid grey;
+  margin: 100px auto;
+}
+
+div.list-container h1 {
+  text-align: center;
+}
+
+ul.list {
+
+}
+
+ul.list li {
+  cursor: pointer;
+}
+
+ul.list li.completed {
+  text-decoration: line-through;
+}
+
+ul#controlPane li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.glyphicon {
+  margin-left: 10px;
+  opacity: 0.5;
+}
+
+.glyphicon:hover {
+  opacity: 1;
+}
